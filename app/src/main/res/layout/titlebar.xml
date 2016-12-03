@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/w0">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/rl_mytitle"
+        >
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:layout_marginLeft="@dimen/x24"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@mipmap/arrowleftblack"
+            android:text="返回"
+            android:textSize="16sp"
+            android:drawablePadding="12px"
+            android:gravity="left|center_vertical"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            />
+        <TextView android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_centerInParent="true"
+            android:textSize="17sp"
+            android:text="注册"
+            />
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
+</merge>
